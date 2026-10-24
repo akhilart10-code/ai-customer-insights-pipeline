@@ -1,10 +1,12 @@
-drop table if exits ecommerce_ai_insights;
-create table ecommerce_ai_insights {
-    review_id varchar(50) primary key,
-    order_id varchar(50),
-    product_id varchar(50),
-    product_name varchar(255),
-    product_category varchar(100),
-    review_text text,
-    ai_predicted_category varchar(100)
-};
+DROP TABLE IF EXISTS ecommerce_ai_insights;
+
+CREATE TABLE ecommerce_ai_insights (
+    review_id VARCHAR(50) PRIMARY KEY,
+    order_id VARCHAR(50),
+    customer_id VARCHAR(50),
+    product_id VARCHAR(50),
+    product_name VARCHAR(255),
+    product_category VARCHAR(100),
+    review_text TEXT,
+    ai_predicted_category VARCHAR(100)
+);
