@@ -1,1 +1,9 @@
-  
+# Ignore local datasets to keep GitHub fast
+data/*.csv
+data/*.xlsx
+data/*.db
+
+# Ignore Python runtime caches
+__pycache__/
+*.pyc
+
