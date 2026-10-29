@@ -16,5 +16,5 @@ An end-to-end data engineering and applied machine learning pipeline built to pr
 3. **Relational Synchronization:** Automated bulk data migration from loose arrays directly into structured tables mapped with strict constraint schemas.
 
 ## 📈 Executive Insights Dashboard
-![Dashboard Preview](dashboard_preview.png)
+![Dashboard Preview](dashboard_preview1.png)
 
